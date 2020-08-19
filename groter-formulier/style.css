@@ -1,0 +1,34 @@
+ body {
+     padding: 0;
+     margin: 0;
+     background-color: aqua;
+ }
+ .wrapper {
+     width: 100%;
+     height: 100%;
+ }
+ form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    border: 2px solid black;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 5px;
+ }
+ .row {
+     border: 2px solid red;
+ }
+ .flex-container-cuisine {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     /*align-items: ;
+     align-content: ;
+     */
+ }

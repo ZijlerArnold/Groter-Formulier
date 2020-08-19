@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="formBox">
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="row row-1">
+                    <label class="label">Naam: </label><br>
+                    <input class="input" type="text" name="name" value="" /><br>
+
+                    <label>Email: </label><br>
+                    <input type="email" name="email" value="" /><br>
+
+                    <label class="label">Telefoonnummer (tel): </label><br>
+                    <input class="input" type="tel" name="" value="" /><br>
+
+                    <label class="label">Leeftijd: </label><br>
+                    <input class="input" type="number" name="" value="" /><br>
+                </div>
+                <!--end row-1-->
+
+                <div class="row row-2">
+                    <label class="label">Geboortedatum: </label><br>
+                    <input class="input" type="date" name="" value="" /><br>
+
+                    <label>Gender: </label><br>
+                    <input class="radio-gender" type="radio" name="" value="" /><label>Man</label><br>
+                    <input class="radio-gender" type="radio" name="" value="" /><label>Vrouw</label><br>
+
+                    <label class="label">favoriete cuisine:: </label><br>
+                    <div class="flex-container-cuisine">
+                        <input class="cuisine" type="checkbox" name="" value="" /><br><label>Frans</label><br>
+                        <input class="cuisine" type="checkbox" name="" value="" /><br><label>Italiaans</label><br>
+                        <input class="cuisine" type="checkbox" name="" value="" /><br><label>Spaans</label><br>
+                        <input class="cuisine" type="checkbox" name="" value="" /><br><label>Arabisch</label><br>
+                    </div>
+                </div>
+                <!--end row-2-->
+
+                <div class="row row-3">
+                    <label class="label">favoriete kleur van short: </label><br>
+                    <input class="input" type="color" name="" value="" /><br>
+
+                    <label class="label">upload je laatste recept: </label><br>
+                    <input class="input" type="file" name="" value="" /><br>
+
+                    <label>url naar je recepten website (url): </label><br>
+                    <input type="url" name="" value="" /><br>
+                </div>
+                <!--end row-3-->
+
+                <div class="row row-4">
+                    <label>Message: </label><br>
+                    <textarea name="message"></textarea><br>
+                </div>
+
+                <input class="reset" type="reset" name="" value="Reset" /><br>
+                <input class="submit" type="submit" name="" value="Submit" /><br>
+
+            </form>
+        </div>
+
+    </div>
+    <!--end wrapper-->
+
+    <script src=""></script>
+</body>
+
+</html>
